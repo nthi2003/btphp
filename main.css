@@ -10,6 +10,10 @@
 .main{
  
     padding: 20px 20px;
+    border: #03001C solid;
+    margin: 30px 500px;
+    box-shadow: 20px 20px #00132C ;
+
 }
 .name-box{
     border: 1px solid #ccc;
@@ -46,4 +50,5 @@ top: -9px;
 transition: background-color 300ms ease-in;
 width: 100%;
 z-index: -1;
+
 }

@@ -11,20 +11,20 @@
 <body>
     <center>
         <div class="main">
-        <form action="">  
+        <form action="insert.php" method="POST" enctype="multipart/form-data" >  
             <div class="style-box">
             <label for="">Name: </label>
-            <input  class="name-box" placeholder="Name" type="text">
+            <input  class="name-box" placeholder="Name" type="text" name="name">
             </div>
            <div class="style-box">
            <label for="">Price:</label>
-            <input class="name-box" placeholder="Name" type="text" id="" name="">
+            <input class="name-box" placeholder="Price" type="text" id="" name="price">
            </div>
            <div class="style-box">
            <label for="">Image:</label>
-            <input class="name-box" placeholder="Name" type="text" id="" name="">
+            <input class="name-box" placeholder="Image" type="file" id="" name="image">
            </div>
-            <button class="box-upload">Upload</button>
+            <button name="upload" class="box-upload">Upload</button>
          </form>
        
         </div>
